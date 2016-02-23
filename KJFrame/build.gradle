@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+
+version = "2.6.0.1"
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    resourcePrefix "kjframe_"
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 23
+        versionCode 260
+        versionName version
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+}
+

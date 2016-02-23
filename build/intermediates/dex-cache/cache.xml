@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\SunAndroidFrame\KJFrame\2.6.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d286bb2227a62e0cd6f8d340c5ad7075b2079707">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\classes-3c039775ca40dbd7c62f9eeb85d8b6774157cb18.jar" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\android-sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-1a8e9e3db1c3cddf2233f7c2252be00db27d4827.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\app\libs\jackson-all-1.9.11.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="62246d59c8188052433b28c5fbd50e4e71804f26">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\jackson-all-1.9.11-08c604519bfe4018b7a38d55b2519973e9d818f7.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\classes-63889b5151fe64a393f27dc0406bdd2b15c7ce93.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-6274916f5528c5e4a768ff06e1b6515519197ab3.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\classes-f29af4ea0d950d4be3a48b41ced9cfdcd4e0e5a1.jar" />
+    </item>
+
+</items>
