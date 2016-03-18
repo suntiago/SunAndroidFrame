@@ -5,6 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.suntiago.sunandroidframe.entity.User;
 
 import org.kymjs.kjframe.KJDB;
@@ -20,11 +25,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        insert();
+        initDb();
+//        insert();
         query();
+        RequestQueue mQueue = Volley.newRequestQueue(this);
+        StringRequest stringRequest = new StringRequest("http://www.baidu.com",
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Log.d("TAG","response:" + response);
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Log.e("TAG", "response:" + error.getMessage(), error);
+                    }
+                });
+        mQueue.add(stringRequest);
+        mQueue.start();
     }
-
-    void insert() {
+    void initDb() {
         DaoConfig d =new DaoConfig();
         d.setContext(this);
         d.setDbName("sun");
@@ -37,10 +58,13 @@ public class MainActivity extends AppCompatActivity {
         d.setDbVersion(1);
         d.setDebug(true);
         db= KJDB.create(d);
+    }
+    void insert() {
         User user = new User(); //warn: The ugc must have id field or @ID annotate
         user.setUserId("1231312");
         db.save(user);
     }
+
     void query(){
         String where = "user_id = \"1231312\"";
         List<User> l = db.findAllByWhere(User.class, where);

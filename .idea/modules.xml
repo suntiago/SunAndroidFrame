@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/KJFrame/KJFrame.iml" filepath="$PROJECT_DIR$/KJFrame/KJFrame.iml" />
       <module fileurl="file://$PROJECT_DIR$/SunAndroidFrame.iml" filepath="$PROJECT_DIR$/SunAndroidFrame.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
     </modules>
   </component>
 </project>
