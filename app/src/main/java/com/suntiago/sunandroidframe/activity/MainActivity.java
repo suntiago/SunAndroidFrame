@@ -1,16 +1,20 @@
-package com.suntiago.sunandroidframe;
+package com.suntiago.sunandroidframe.activity;
 
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.suntiago.sunandroidframe.R;
 import com.suntiago.sunandroidframe.entity.User;
+import com.suntiago.sunandroidframe.util.Utils;
 
 import org.kymjs.kjframe.KJDB;
 import org.kymjs.kjframe.database.DaoConfig;
@@ -25,26 +29,34 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initDb();
+        findViewById(R.id.hello_).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ChatActivity.class));
+            }
+        });
+//        initDb();
 //        insert();
-        query();
-        RequestQueue mQueue = Volley.newRequestQueue(this);
-        StringRequest stringRequest = new StringRequest("http://www.baidu.com",
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        Log.d("TAG","response:" + response);
-                    }
-                },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Log.e("TAG", "response:" + error.getMessage(), error);
-                    }
-                });
-        mQueue.add(stringRequest);
-        mQueue.start();
+//        query();
+//        RequestQueue mQueue = Volley.newRequestQueue(this);
+//        StringRequest stringRequest = new StringRequest("http://www.baidu.com",
+//                new Response.Listener<String>() {
+//                    @Override
+//                    public void onResponse(String response) {
+//                        Log.d("TAG","response:" + response);
+//                    }
+//                },
+//                new Response.ErrorListener() {
+//                    @Override
+//                    public void onErrorResponse(VolleyError error) {
+//                        Log.e("TAG", "response:" + error.getMessage(), error);
+//                    }
+//                });
+//        mQueue.add(stringRequest);
+//        mQueue.start();
+        Utils.connect(this, null);
     }
+
     void initDb() {
         DaoConfig d =new DaoConfig();
         d.setContext(this);
@@ -59,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         d.setDebug(true);
         db= KJDB.create(d);
     }
+
     void insert() {
         User user = new User(); //warn: The ugc must have id field or @ID annotate
         user.setUserId("1231312");

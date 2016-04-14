@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.suntiago.sunandroidframe.view.GifTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="@style/RCTheme.Message.TextView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:autoLink="all"
+    android:gravity="center_vertical"
+    android:maxWidth="236dp"
+    android:minHeight="40dp"
+    android:minWidth="50dp" />
+<!--<com.pzf.liaotian.view.GifTextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:id="@android:id/text1"-->
+<!--style="@style/B5_Font"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_centerVertical="true"-->
+<!--android:focusable="true"-->
+<!--android:maxWidth="250dp"-->
+<!--android:textColor="@color/color_hei"-->
+<!--android:textSize="16.0sp" />-->

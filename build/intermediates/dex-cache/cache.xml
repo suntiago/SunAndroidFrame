@@ -2,39 +2,32 @@
 <items version="2" >
 
     <item
-        jar="D:\github\SunAndroidFrame\app\libs\jackson-all-1.9.11.jar"
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\SunAndroidFrame\oneCore\unspecified\jars\libs\org.apache.http.legacy.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="62246d59c8188052433b28c5fbd50e4e71804f26">
-        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\jackson-all-1.9.11-08c604519bfe4018b7a38d55b2519973e9d818f7.jar" />
+        revision="23.0.2"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\org.apache.http.legacy-c009f04891b24ba54ab20b55ea9c71b6eb84e8eb.jar" />
     </item>
     <item
-        jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jar="D:\github\SunAndroidFrame\androidOne\libs\google-zxing.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\classes-63889b5151fe64a393f27dc0406bdd2b15c7ce93.jar" />
+        revision="23.0.2"
+        sha1="327bddfe22740db0419bd719a0f950b6ad2b3c3f">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\google-zxing-c5777b095cfa558919c1ff9dbbed0fc13d0d87da.jar" />
     </item>
     <item
-        jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\jars\classes.jar"
+        jar="D:\github\SunAndroidFrame\app\libs\Rong_IMLib_v2_4_10.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ae6b7b7b79059e7fa8e224ef4f3a44ecd21798c2">
-        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\classes-23e59df845887e7e5d47b2aa9bfd111026e60beb.jar" />
+        sha1="508c83a6a8aa4c49c45b9792c405315f72766ed3">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\Rong_IMLib_v2_4_10-a353ce0876ed818ee6c56cf5b0b3f015568e6477.jar" />
     </item>
     <item
-        jar="D:\Program Files\Android\android-sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jar="D:\github\SunAndroidFrame\androidOne\libs\alipayutdid.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-1a8e9e3db1c3cddf2233f7c2252be00db27d4827.jar" />
-    </item>
-    <item
-        jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\SunAndroidFrame\KJFrame\2.6.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d286bb2227a62e0cd6f8d340c5ad7075b2079707">
-        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\classes-3c039775ca40dbd7c62f9eeb85d8b6774157cb18.jar" />
+        revision="23.0.2"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\alipayutdid-e293141e7546e2f1b05a9e463ef49ac3428c4d7a.jar" />
     </item>
     <item
         jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
@@ -44,11 +37,242 @@
         <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\classes-f29af4ea0d950d4be3a48b41ced9cfdcd4e0e5a1.jar" />
     </item>
     <item
+        jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\SunAndroidFrame\KJFrame\2.6.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="31e5ecfbf07bf756532c8a8b63a9c87e6faa3b9e">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\classes-3c039775ca40dbd7c62f9eeb85d8b6774157cb18.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="39bd9f893c75eac9e76559cc4e96af6e417afdc5">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\classes-4895507abfcd04ca8dcd707ea3aa37ea33ec25e0.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\SunAndroidFrame\oneCore\unspecified\jars\libs\xpp3_min-1.1.4c.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="19d4e90b43059058f6e056f794f0ea4030d60b86">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\xpp3_min-1.1.4c-ae8ba1b5dfcff09723f1de79a3f0f63c361d6eab.jar" />
+    </item>
+    <item
+        jar="D:\android-sdk\Android\android-sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-66c2ec41f7c2a4e3fd6b4ca45ba49ab5b6a5a5eb.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57528b5deee77bfa2188fc279fd45066366f17f5">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\classes-8a03d7eedb966345de4205c3870d2f57694894bd.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4ee95617ab850030c51486d02bc9d207b14419c6">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\classes-0aef1b83dfe78dfd9ed7210e68f7363b38cba987.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\SunAndroidFrame\oneCore\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4af98cb2ad0245039ed513814f70ae626cbad39a">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\classes-15a88e619d4572bc067bfb548a0a3269b8bc642e.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3158c15bb0ae97575debdb40cfcd8f0f9f244526">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\classes-3bee8fd4327130d11ee5361866aa8a02b268f3ec.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b1dfad87284e096188d1c6b3391dce7c050252f6">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\classes-23e59df845887e7e5d47b2aa9bfd111026e60beb.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-2d55aa70a1babd1ede611f0925d8308791d7bae1.jar" />
+    </item>
+    <item
+        jar="C:\Users\yu.zai\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\eventbus-3.0.0-201f54e5f782f51e4c1b723a9d7c062a66529f80.jar" />
+    </item>
+    <item
+        jar="C:\Users\yu.zai\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-4bfd59e2e6346f60cfefe1843487ef9a04e8dc5e.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\SunAndroidFrame\oneCore\unspecified\jars\libs\xstream-1.4.5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="61c0a127b237182fdf2ccc9cc2efbb5779a64a3b">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\xstream-1.4.5-7d2decb11504a4322cfb8762f87910308291a659.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-020008811d24bb40be6b31eba844417cc4638d6a.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\app\libs\jackson-all-1.9.11.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="62246d59c8188052433b28c5fbd50e4e71804f26">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\jackson-all-1.9.11-08c604519bfe4018b7a38d55b2519973e9d818f7.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\libs\alipaysdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="49af714f3cf9458d9123ce69dcaaa46644fc93ca">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\alipaysdk-1a67277953a4c78e523dea8a477ca8400ec4e9dc.jar" />
+    </item>
+    <item
+        jar="C:\Users\yu.zai\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\library-2.4.0-806a1b4d80fda29569e94e3e27269fd2bc3a9eca.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ca51025f4a58fc7fb6cfaa85e7d09b7ae47e6187">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\classes-b513ef51ece4279913a14ce52008f84d74369a4d.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\SunAndroidFrame\bugtags\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccaae4323927600c4190119858f8eed5c4e74c97">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\classes-b5cd20e0e4a00077e1bc9a7e1b959eba517aeb13.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\libs\cordova-2.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c7b56e6927bfa5e645cc114a546dd34c80822e9b">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\cordova-2.9-773cfb1bd9871ed57d8242787fa07f0098dc086a.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.7\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="41a4edf3c43fdbce6eba27da50b17ff9933987f1">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\classes-c104a29bb441013ffe43db1c2739ab549297fa47.jar" />
+    </item>
+    <item
+        jar="D:\android-sdk\Android\android-sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-abd1f5abf8e692f76e9a51af7572d2cb9a7fa3cd.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\libs\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\butterknife-6.1.0-e409fea0f825775c48cce549eda0734bb9e44a14.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\com.alipay.euler\andfix\0.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="35a001d5b13ac507ecb16100ca6166c4c90d5f57">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\classes-98357d6d658b901896aa813da4f8c7c4d386def8.jar" />
+    </item>
+    <item
         jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
         <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-6274916f5528c5e4a768ff06e1b6515519197ab3.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="D:\github\SunAndroidFrame\app\build\intermediates\pre-dexed\debug\classes-63889b5151fe64a393f27dc0406bdd2b15c7ce93.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\classes-5590bc55e23799b13dd80e5d039daf7e0e8e1b59.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\SunAndroidFrame\bugtags\unspecified\jars\libs\bugtags-lib-1.0.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2ecdc0da053d31c903c711026aacd50a22024189">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\bugtags-lib-1.0.4-751b45ab26eaa067df10482abe16381a818a9e58.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\libs\libammsdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\libammsdk-8a81cc3ab992eb958b913ab402843bbdbb161793.jar" />
+    </item>
+    <item
+        jar="C:\Users\yu.zai\.gradle\caches\modules-2\files-2.1\de.greenrobot\greendao\2.1.0\9414c1d4578673dac83a23119009624fd695726d\greendao-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9414c1d4578673dac83a23119009624fd695726d">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\greendao-2.1.0-9b55e21e4ed345bda61419f84fa5093119f93486.jar" />
+    </item>
+    <item
+        jar="C:\Users\yu.zai\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.8\aba3867820f46117ef0dfe760418b1bc0278894f\fastjson-1.2.8.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="aba3867820f46117ef0dfe760418b1bc0278894f">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\fastjson-1.2.8-3fc1ccf6ee2523a5bdd20f3299932e174428a911.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\libs\alipaysecsdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\alipaysecsdk-720f30eb3719f8b7f9a257ce7b7c658865242d77.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\build\intermediates\exploded-aar\SunAndroidFrame\oneCore\unspecified\jars\libs\ksoap2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9daf041a502b251a307312706e54a7ede7f86b39">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\ksoap2-f9be58fbd781f95e21ddcdca798a14fab5b144a6.jar" />
+    </item>
+    <item
+        jar="D:\github\SunAndroidFrame\androidOne\libs\date4j.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="18889a91ddc87a008bce37fb516047f8aa43331a">
+        <dex dex="D:\github\SunAndroidFrame\androidOne\build\intermediates\pre-dexed\debug\date4j-80703050f60cd2c36729340172d6ecd4418d210f.jar" />
     </item>
 
 </items>

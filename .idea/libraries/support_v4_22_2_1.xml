@@ -11,8 +11,8 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://D:/Program Files/Android/android-sdk/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.1/support-v4-22.2.1-sources.jar!/" />
-      <root url="jar://D:/Program Files/Android/android-sdk/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.1/support-v4-22.2.1-sources.jar!/" />
+      <root url="jar://D:/android-sdk/Android/android-sdk/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.1/support-v4-22.2.1-sources.jar!/" />
+      <root url="jar://D:/android-sdk/Android/android-sdk/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.1/support-v4-22.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
